@@ -14,7 +14,11 @@
 ###1. Thiết lập IP tĩnh, IP động bằng dòng lệnh (hay còn gọi là cấu hình địa chỉ IP tạm thời)
 > Ta gõ lệnh như sau :
 
- ``` sudo ifconfig ethX ip address netmask net address```.
+ ``` sudo ifconfig ethX ip address netmask subnet-mask```.
+ * Trong đố:
+   * ethX : là tên card mạng thứ X.
+   * ip address: là địa chỉ ip cần truyền cho card mạng.
+   * subnet-mask: là địa chỉ netmask
 
 Ví dụ muốn gán địa chỉ 192.168.1.1 cho eth0 thì câu lệnh sẽ như sau 
 
@@ -36,6 +40,13 @@ netmask 255.255.255.0
 gateway 172.16.19.1
 dns-nameservers 8.8.8.8
 ```
+* Trong đó:
+  * eth0: chỉ ra tên card mạng.
+  * static: chỉ ra truyền ip tĩnh cho card mạng
+  * ipaddress: địa chỉ ip cần truyền.
+  * netmask`: địa chỉ netmask.
+	 * gateway`: địa chỉ gateway.
+	 * dns-nameserver`: địa chỉ dns server phân giải tên miền.
 
 ![](https://raw.githubusercontent.com/hieppso194/baocao_vnware/master/23.PNG)
 3. Sau khi save file thì chúng ta restart card mạng băng câu lệnh ```/etc/init.d/networking restart```
