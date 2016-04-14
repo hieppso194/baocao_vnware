@@ -1,6 +1,13 @@
 # Thiết lập IP tĩnh, IP động và 2 card mạng trên Ubuntu server
 
 ----
+# Mục lục
+<ul>
+ <li>[I. Thiết lập IP tĩnh, IP động]  (#phan1)</li>
+ <li>[II. Thêm card mạng cho ubuntu server và cấu hình cho card mạng]  (#phan2)</li>
+ </ul>
+----
+<a name="phan1"></a>
 ##I. Thiết lập IP tĩnh, IP động
 ###1. Thiết lập IP tĩnh, IP động bằng dòng lệnh (hay còn gọi là cấu hình địa chỉ IP tạm thời)
 > Ta gõ lệnh như sau :
