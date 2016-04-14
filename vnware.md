@@ -29,9 +29,9 @@ Ví dụ muốn gán địa chỉ 192.168.1.1 cho eth0 thì câu lệnh sẽ nh�
 ----
 <a name="phanI.2"></a>
 ###2. Thiết lập IP tĩnh, IP động bằng sửa file
-1. Truy nhập vào /etc/interfaces/networking (ở đây tôi mở file bằng nano) để sửa các thông số.
+* Truy nhập vào /etc/interfaces/networking (ở đây tôi mở file bằng nano) để sửa các thông số.
 
-2. Thêm các dòng lệnh sau vào file. Ở đây tôi đổi địa chỉ ip eth0 thành 10.10.10.10
+* Thêm các dòng lệnh sau vào file. Ở đây tôi đổi địa chỉ ip eth0 thành 10.10.10.10
  ```
 auto eth0
 iface eth0 inet static
@@ -49,7 +49,7 @@ dns-nameservers 8.8.8.8
 	* `dns-nameserver`: địa chỉ dns server phân giải tên miền.
  
 ![](https://raw.githubusercontent.com/hieppso194/baocao_vnware/master/23.PNG)
-3. Sau khi save file thì chúng ta restart card mạng băng câu lệnh ```/etc/init.d/networking restart```
+* Sau khi save file thì chúng ta restart card mạng băng câu lệnh ```/etc/init.d/networking restart```
 
  **Lưu ý: Để đổi ip động ta chỉ việc thay static thành dhcp và làm tương tự.**
 
@@ -58,10 +58,10 @@ dns-nameservers 8.8.8.8
 ----
 <a name="phanII"></a>
 ##II.Thêm card mạng cho ubuntu server và cấu hình cho card mạng
-1. Chọn setting trong máy ảo-> chọn add-> network adapter Chọn custom và chọn vmnetx(ví dụ ở đây tôi chọn vmnet1)
+* Chọn setting trong máy ảo-> chọn add-> network adapter Chọn custom và chọn vmnetx(ví dụ ở đây tôi chọn vmnet1)
   
 ![](https://raw.githubusercontent.com/hieppso194/baocao_vnware/master/24.PNG)
-2. Bây giờ tiến hành cấu hình cho 2 card mạng ở file /etc/network/interface , file cấu hình như sau.
+* Bây giờ tiến hành cấu hình cho 2 card mạng ở file /etc/network/interface , file cấu hình như sau.
 
 ![](https://raw.githubusercontent.com/hieppso194/baocao_vnware/master/25.png)
 
