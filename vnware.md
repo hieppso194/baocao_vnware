@@ -40,7 +40,7 @@ netmask 255.255.255.0
 gateway 172.16.19.1
 dns-nameservers 8.8.8.8
 ```.
-* Trong đó:
+ * Trong đó:
    * eth0: chỉ ra tên card mạng.
    * static: chỉ ra truyền ip tĩnh cho card mạng
    * ipaddress: địa chỉ ip cần truyền.
