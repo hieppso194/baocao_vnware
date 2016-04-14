@@ -5,6 +5,7 @@
  [I. Thiết lập IP tĩnh, IP động]  (#phanI)
  * [1. Thiết lập IP tĩnh, IP động bằng dòng lệnh] (#phanI.1)
  * [2. Thiết lập IP tĩnh, IP động bằng sửa file] (#phanI.2)
+ 
  [II. Thêm card mạng cho ubuntu server và cấu hình cho card mạng]  (#phanII)
  
 ----
@@ -13,7 +14,12 @@
 <a name="phanI.1"></a>
 ###1. Thiết lập IP tĩnh, IP động bằng dòng lệnh (hay còn gọi là cấu hình địa chỉ IP tạm thời)
 > Ta gõ lệnh như sau :
- ``` sudo ifconfig ethX ip address netmask net address```. Ví dụ muốn gán địa chỉ 192.168.1.1 cho eth0 thì câu lệnh sẽ như sau ```sudo ifconfig 192.168.1.1 netmask 255.255.255.0```
+
+ ``` sudo ifconfig ethX ip address netmask net address```.
+
+Ví dụ muốn gán địa chỉ 192.168.1.1 cho eth0 thì câu lệnh sẽ như sau 
+
+```sudo ifconfig 192.168.1.1 netmask 255.255.255.0```
  ![](https://raw.githubusercontent.com/hieppso194/baocao_vnware/master/22.PNG)
 
 ----
