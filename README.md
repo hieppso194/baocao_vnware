@@ -20,9 +20,10 @@ gateway 10.10.10.1
 dns-nameservers 8.8.8.8
 ```
 3. Sau khi save file thì chúng ta restart card mạng băng câu lệnh /etc/init.d/networking 
- ** Lưu ý: Để đổi ip động ta chỉ việc thay static thành dhcp và làm tương tự.**
+**Lưu ý: Để đổi ip động ta chỉ việc thay static thành dhcp và làm tương tự.**
 
 ----
 ##2.Thêm card mạng cho ubuntu server và cấu hình cho card mạng
-
+1. Chọn setting trong máy ảo-> chọn add-> network adapter Chọn custom và chọn vmnetx(ví dụ ở đây tôi chọn vmnet1)
+2. Bây giờ tiến hành cấu hình cho 2 card mạng ở file /etc/network/interface , file cấu hình như sau.
 
