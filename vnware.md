@@ -19,6 +19,7 @@
 Ví dụ muốn gán địa chỉ 192.168.1.1 cho eth0 thì câu lệnh sẽ như sau 
 
 ```sudo ifconfig 192.168.1.1 netmask 255.255.255.0```
+
  ![](https://raw.githubusercontent.com/hieppso194/baocao_vnware/master/22.PNG)
 
 ----
@@ -35,16 +36,20 @@ netmask 255.255.255.0
 gateway 172.16.19.1
 dns-nameservers 8.8.8.8
 ```
+
 ![](https://raw.githubusercontent.com/hieppso194/baocao_vnware/master/23.PNG)
 3. Sau khi save file thì chúng ta restart card mạng băng câu lệnh ```/etc/init.d/networking restart```
 4. **Lưu ý: Để đổi ip động ta chỉ việc thay static thành dhcp và làm tương tự.**
+
 ![](https://raw.githubusercontent.com/hieppso194/baocao_vnware/master/232.png)
 
 ----
 <a name="phanII"></a>
 ##II.Thêm card mạng cho ubuntu server và cấu hình cho card mạng
 1. Chọn setting trong máy ảo-> chọn add-> network adapter Chọn custom và chọn vmnetx(ví dụ ở đây tôi chọn vmnet1)
-  ![](https://raw.githubusercontent.com/hieppso194/baocao_vnware/master/24.PNG)
+  
+![](https://raw.githubusercontent.com/hieppso194/baocao_vnware/master/24.PNG)
 2. Bây giờ tiến hành cấu hình cho 2 card mạng ở file /etc/network/interface , file cấu hình như sau.
+
 ![](https://raw.githubusercontent.com/hieppso194/baocao_vnware/master/25.png)
 
