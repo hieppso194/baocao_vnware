@@ -19,4 +19,10 @@ netmask 255.255.255.0
 gateway 10.10.10.1
 dns-nameservers 8.8.8.8
 ```
+3. Sau khi save file thì chúng ta restart card mạng băng câu lệnh /etc/init.d/networking 
+ ** Lưu ý: Để đổi ip động ta chỉ việc thay static thành dhcp và làm tương tự.**
+
+----
+##2.Thêm card mạng cho ubuntu server và cấu hình cho card mạng
+
 
