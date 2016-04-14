@@ -2,11 +2,11 @@
 
 ----
 # Mục lục
-[I. Thiết lập IP tĩnh, IP động]  (#phanI)
+##[I. Thiết lập IP tĩnh, IP động]  (#phanI)
  * [1. Thiết lập IP tĩnh, IP động bằng dòng lệnh] (#phanI.1)
  * [2. Thiết lập IP tĩnh, IP động bằng sửa file] (#phanI.2)
  
-[I. Thiết lập IP tĩnh, IP động]  (#phanI)
+##[II. Thêm card mạng cho ubuntu server và cấu hình cho card mạng]  (#phanII)
 ----
 <a name="phanI"></a>
 ##I. Thiết lập IP tĩnh, IP động
