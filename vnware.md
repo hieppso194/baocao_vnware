@@ -44,9 +44,9 @@ dns-nameservers 8.8.8.8
   * eth0: chỉ ra tên card mạng.
   * static: chỉ ra truyền ip tĩnh cho card mạng
   * ipaddress: địa chỉ ip cần truyền.
-  * netmask`: địa chỉ netmask.
-	 * gateway`: địa chỉ gateway.
-	 * dns-nameserver`: địa chỉ dns server phân giải tên miền.
+  * netmask: địa chỉ netmask.
+  * gateway: địa chỉ gateway.
+  * dns-nameserver: địa chỉ dns server phân giải tên miền.
 
 ![](https://raw.githubusercontent.com/hieppso194/baocao_vnware/master/23.PNG)
 3. Sau khi save file thì chúng ta restart card mạng băng câu lệnh ```/etc/init.d/networking restart```
