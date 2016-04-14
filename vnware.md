@@ -40,13 +40,13 @@ netmask 255.255.255.0
 gateway 172.16.19.1
 dns-nameservers 8.8.8.8
 ```.
- * Trong đó:
-   * eth0: chỉ ra tên card mạng.
-   * static: chỉ ra cấp ip tĩnh cho card mạng
-   * ipaddress: chỉ ra địa chỉ ip mà ta cấp cho card mạng
-   * netmask: chỉ ra địa chỉ netmask
-   * gateway: chỉ ra địa chỉ gateway
-   * dns-nameservers: chỉ ra dns server phân giải tên miền
+* Trong đó:
+	* `eth1`: tên card mạng
+	* `static`: chỉ ra rằng, card mạng sẽ nhận địa chỉ ip do người quản trị đặt.
+	* `address`: địa chỉ ip.
+	* `netmask`: địa chỉ netmask.
+	* `gateway`: địa chỉ gateway.
+	* `dns-nameserver`: địa chỉ dns server phân giải tên miền.
  
 ![](https://raw.githubusercontent.com/hieppso194/baocao_vnware/master/23.PNG)
 3. Sau khi save file thì chúng ta restart card mạng băng câu lệnh ```/etc/init.d/networking restart```
