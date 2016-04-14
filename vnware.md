@@ -40,7 +40,7 @@ dns-nameservers 8.8.8.8
 ![](https://raw.githubusercontent.com/hieppso194/baocao_vnware/master/23.PNG)
 3. Sau khi save file thì chúng ta restart card mạng băng câu lệnh ```/etc/init.d/networking restart```
 
-4. **Lưu ý: Để đổi ip động ta chỉ việc thay static thành dhcp và làm tương tự.**
+ **Lưu ý: Để đổi ip động ta chỉ việc thay static thành dhcp và làm tương tự.**
 
 ![](https://raw.githubusercontent.com/hieppso194/baocao_vnware/master/232.png)
 
